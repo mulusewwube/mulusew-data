@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../assets/AboutMe.css";
-import { FaGraduationCap, FaCode, FaPalette, FaBriefcase, FaLaptopCode, FaStar } from "react-icons/fa";
+import { FaGraduationCap, FaCode, FaDatabase, FaSpider, FaBriefcase, FaLaptopCode, FaStar } from "react-icons/fa";
 import myImage from "../assets/images/my-photo.jpg";
 
 function AboutMe() {
@@ -45,11 +45,10 @@ function AboutMe() {
   </h3>
   <ul className="description-list" style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", justifyContent: "center", gap: "1.5rem" }}>
     <li style={{ display: "inline-block", padding: "0.5rem 1rem", border: "2px solid rgba(255,255,255,0.6)", borderRadius: "50px", background: "rgba(255, 255, 255, 0.1)", boxShadow: "0 2px 10px rgba(0,0,0,0.2)", transition: "transform 0.3s" }}>Web Developer</li>
-    <li style={{ display: "inline-block", padding: "0.5rem 1rem", border: "2px solid rgba(255,255,255,0.6)", borderRadius: "50px", background: "rgba(255, 255, 255, 0.1)", boxShadow: "0 2px 10px rgba(0,0,0,0.2)", transition: "transform 0.3s" }}>Graphics Designer</li>
-    <li style={{ display: "inline-block", padding: "0.5rem 1rem", border: "2px solid rgba(255,255,255,0.6)", borderRadius: "50px", background: "rgba(255, 255, 255, 0.1)", boxShadow: "0 2px 10px rgba(0,0,0,0.2)", transition: "transform 0.3s" }}>UI/UX Enthusiast</li>
+    <li style={{ display: "inline-block", padding: "0.5rem 1rem", border: "2px solid rgba(255,255,255,0.6)", borderRadius: "50px", background: "rgba(255, 255, 255, 0.1)", boxShadow: "0 2px 10px rgba(0,0,0,0.2)", transition: "transform 0.3s" }}>Data Analyst</li>
+    <li style={{ display: "inline-block", padding: "0.5rem 1rem", border: "2px solid rgba(255,255,255,0.6)", borderRadius: "50px", background: "rgba(255, 255, 255, 0.1)", boxShadow: "0 2px 10px rgba(0,0,0,0.2)", transition: "transform 0.3s" }}>Web Scraping Enthusiast</li>
   </ul>
 </div>
-
 
         {/* Image Section */}
         <div className="about-me-image">
@@ -63,13 +62,11 @@ function AboutMe() {
           </h4>
           <div className="about-me-timeline" style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", justifyContent: "center", gap: "1.5rem" }} >
           <div className="timeline-item" key={timelineItems[currentIndex].year} style={{ animation: "slideInRight 1s ease-out" }}>
-   
 
               <span className="year">
     <span className="year-text">{timelineItems[currentIndex].year}</span>
     <span className="year-vertical-line"></span>
 </span>
-
 
               <p className="timeline-description">{timelineItems[currentIndex].description}</p>
             </div>
@@ -78,19 +75,18 @@ function AboutMe() {
       </div>
 
       <div className="skills-section">
-        {/* <h4 className="skills-title"></h4> */}
         <div className="skills-grid">
           <div className="skill">
             <FaCode className="icon" />
             <p>Web Development</p>
           </div>
           <div className="skill">
-            <FaPalette className="icon" />
-            <p>Graphic Design</p>
+            <FaDatabase className="icon" />
+            <p>Data Analysis</p>
           </div>
           <div className="skill">
-            <FaGraduationCap className="icon" />
-            <p>UI/UX Design</p>
+            <FaSpider className="icon" />
+            <p>Web Scraping</p>
           </div>
           <div className="skill">
             <FaBriefcase className="icon" />
@@ -107,8 +103,6 @@ function AboutMe() {
         </div>
       </div>
 
-   
- 
     </section>
   );
 }
