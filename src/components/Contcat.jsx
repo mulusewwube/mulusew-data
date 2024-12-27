@@ -7,11 +7,11 @@ const BrainIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 64 64"
-    width="50"
-    height="50"
+    width="200"
+    height="100"
     fill="none"
     stroke="currentColor"
-    strokeWidth="2"
+    strokeWidth="8"
     strokeLinecap="round"
     strokeLinejoin="round"
   >
