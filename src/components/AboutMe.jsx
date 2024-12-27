@@ -46,7 +46,7 @@ function AboutMe() {
   <ul className="description-list" style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", justifyContent: "center", gap: "1.5rem" }}>
     <li style={{ display: "inline-block", padding: "0.5rem 1rem", border: "2px solid rgba(255,255,255,0.6)", borderRadius: "50px", background: "rgba(255, 255, 255, 0.1)", boxShadow: "0 2px 10px rgba(0,0,0,0.2)", transition: "transform 0.3s" }}>Web Developer</li>
     <li style={{ display: "inline-block", padding: "0.5rem 1rem", border: "2px solid rgba(255,255,255,0.6)", borderRadius: "50px", background: "rgba(255, 255, 255, 0.1)", boxShadow: "0 2px 10px rgba(0,0,0,0.2)", transition: "transform 0.3s" }}>Data Analyst</li>
-    <li style={{ display: "inline-block", padding: "0.5rem 1rem", border: "2px solid rgba(255,255,255,0.6)", borderRadius: "50px", background: "rgba(255, 255, 255, 0.1)", boxShadow: "0 2px 10px rgba(0,0,0,0.2)", transition: "transform 0.3s" }}>Web Scraping Enthusiast</li>
+    <li style={{ display: "inline-block", padding: "0.5rem 1rem", border: "2px solid rgba(255,255,255,0.6)", borderRadius: "50px", background: "rgba(255, 255, 255, 0.1)", boxShadow: "0 2px 10px rgba(0,0,0,0.2)", transition: "transform 0.3s" }}>Web Scraping</li>
   </ul>
 </div>
 
