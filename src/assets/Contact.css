@@ -36,6 +36,16 @@
   margin-bottom: 15px;
 }
 
+
+.ai-brain-graphic {
+  margin-bottom: 20px;
+}
+
+.ai-description {
+  font-size: 16px;
+  color: #555;
+}
+
 /* Left Section */
 .contact-left {
   flex: 1;
