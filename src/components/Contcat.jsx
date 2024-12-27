@@ -11,7 +11,7 @@ const BrainIcon = () => (
     height="100"
     fill="none"
     stroke="currentColor"
-    strokeWidth="8"
+    strokeWidth="5"
     strokeLinecap="round"
     strokeLinejoin="round"
   >
