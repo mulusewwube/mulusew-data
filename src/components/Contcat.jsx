@@ -54,7 +54,7 @@ function Contact() {
           {/* New Brain Icon Section */}
           <div className="ai-brain-graphic">
             <BrainIcon />
-            <p className="ai-description">AI-driven solutions for smarter business decisions</p>
+{/*             <p className="ai-description">AI-driven solutions for smarter business decisions</p> */}
           </div>
 
 
