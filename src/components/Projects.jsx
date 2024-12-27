@@ -6,19 +6,27 @@ function Projects() {
     {
       title: "Optima",
       description: "Combines habit tracking and project management.",
-      image: "/assets/images/optima.jpg",
+      image: "/assets/images/data1.png",
       link: "#",
     },
     {
       title: "Union",
       description: "personalized support to meet your academic, professionals.",
-      image: "/assets/images/union.png",
+      image: "/assets/images/data2.png",
       link: "#",
     },
     {
       title: "Digital Storefront",
       description: "A sleek e-commerce platform for selling digital products worldwide.",
-      image: "/assets/images/e-commerce.jpg",
+      image: "/assets/images/data3.png",
+      link: "#",
+      
+    },
+
+        {
+      title: "Digital Storefront",
+      description: "A sleek e-commerce platform for selling digital products worldwide.",
+      image: "/assets/images/data4.png",
       link: "#",
       
     },
