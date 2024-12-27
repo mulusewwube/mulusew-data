@@ -3,6 +3,22 @@ import { FaUser, FaEnvelope, FaPaperPlane, FaPhoneAlt, FaRegEnvelope } from "rea
 import { FaShoppingCart, FaMobileAlt, FaDesktop, FaCode, FaSearch, FaPaintBrush, FaChartLine } from "react-icons/fa"; // Icons for solve-problem list
 import "../assets/Contact.css"; // Make sure to create a CSS file for styling
 
+const BrainIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 64 64"
+    width="50"
+    height="50"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  >
+    <path d="M32 2c2 0 4 3 4 6s-2 6-4 6c-2 0-4-3-4-6s2-6 4-6zm0 12c4 0 8 4 8 8 0 4-4 8-8 8-4 0-8-4-8-8 0-4 4-8 8-8zM32 40c2 0 4 3 4 6s-2 6-4 6c-2 0-4-3-4-6s2-6 4-6zM16 2c2 0 4 3 4 6s-2 6-4 6c-2 0-4-3-4-6s2-6 4-6zm16 0c2 0 4 3 4 6s-2 6-4 6c-2 0-4-3-4-6s2-6 4-6zm16 8c4 0 8 4 8 8 0 4-4 8-8 8-4 0-8-4-8-8 0-4 4-8 8-8zM16 40c2 0 4 3 4 6s-2 6-4 6c-2 0-4-3-4-6s2-6 4-6z" />
+  </svg>
+);
+
 function Contact() {
   const [formData, setFormData] = useState({
     name: "",
@@ -35,7 +51,13 @@ function Contact() {
         <div className="solve-problem">
           <h3 className="h">Let's Solve Problems with Digital Solutions</h3>
 
-          {/* <ul className="solve-list">
+          {/* New Brain Icon Section */}
+          <div className="ai-brain-graphic">
+            <BrainIcon />
+            <p className="ai-description">AI-driven solutions for smarter business decisions</p>
+          </div>
+
+          <ul className="solve-list">
             <li><FaShoppingCart className="icon" /> e-Commerce Solutions</li>
             <li><FaMobileAlt className="icon" /> Mobile App Development</li>
             <li><FaDesktop className="icon" /> Website Development</li>
@@ -43,18 +65,18 @@ function Contact() {
             <li><FaSearch className="icon" /> Search Engine Optimization (SEO)</li>
             <li><FaPaintBrush className="icon" /> UI/UX Design Services</li>
             <li><FaChartLine className="icon" /> Data Analytics & Business Intelligence</li>
-          </ul> */}
+          </ul>
         </div>
 
         {/* Contact Details and Form */}
-        <div 
+        <div
           className={`contact-left ${hoverEffect}`}
           onMouseEnter={() => setHoverEffect("magic-hover")}
           onMouseLeave={() => setHoverEffect("")}
         >
-          <img 
+          <img
             src="/assets/images/my1.png"
-            alt="Contact" 
+            alt="Contact"
             className="contact-image"
           />
 
