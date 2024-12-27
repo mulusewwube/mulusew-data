@@ -57,15 +57,7 @@ function Contact() {
             <p className="ai-description">AI-driven solutions for smarter business decisions</p>
           </div>
 
-          <ul className="solve-list">
-            <li><FaShoppingCart className="icon" /> e-Commerce Solutions</li>
-            <li><FaMobileAlt className="icon" /> Mobile App Development</li>
-            <li><FaDesktop className="icon" /> Website Development</li>
-            <li><FaCode className="icon" /> Custom Software Development</li>
-            <li><FaSearch className="icon" /> Search Engine Optimization (SEO)</li>
-            <li><FaPaintBrush className="icon" /> UI/UX Design Services</li>
-            <li><FaChartLine className="icon" /> Data Analytics & Business Intelligence</li>
-          </ul>
+
         </div>
 
         {/* Contact Details and Form */}
