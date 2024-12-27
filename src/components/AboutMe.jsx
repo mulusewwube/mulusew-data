@@ -5,18 +5,27 @@ import myImage from "../assets/images/my-photo.jpg";
 
 function AboutMe() {
   const timelineItems = [
-    {
-      year: "2024",
-      description: "Earned a Bachelor’s degree in Computer Science",
-    },
-    {
-      year: "2023",
-      description: "Completed a certification in web development from Udemy",
-    },
-    {
-      year: "2022",
-      description: "Developed graphic design skills using tools like Adobe Illustrator and Figma.",
-    },
+{
+  year: "2024",
+  description: "Earned a Bachelor’s degree in Computer Science"
+},
+{
+  year: "2023",
+  description: "Completed a certification in web development from Udemy"
+},
+{
+  year: "2022",
+  description: "Developed graphic design skills using tools like Adobe Illustrator and Figma."
+},
+{
+  year: "2023",
+  description: "Gained expertise in web scraping and data analysis."
+},
+{
+  year: "2023",
+  description: "Developed skills in language translation and transcription."
+}
+
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
