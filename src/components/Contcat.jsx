@@ -99,7 +99,7 @@ function Contact() {
         <div className="contact-right">
           <form className="contact-form" onSubmit={handleSubmit}>
             <div className="form-group">
-              <label htmlFor="name">
+              <label htmlFor="name" style={{ color: '#2c2a6e' }}>
                 <FaUser className="icon" /> Name
               </label>
               <input
@@ -113,9 +113,14 @@ function Contact() {
               />
             </div>
             <div className="form-group">
-              <label htmlFor="email">
+{/*               <label htmlFor="email">
                 <FaEnvelope className="icon" /> Email
-              </label>
+              </label> */}
+
+              <label htmlFor="email" style={{ color: '#2c2a6e' }}>
+  <FaEnvelope className="icon" /> Email
+</label>
+
               <input
                 type="email"
                 id="email"
@@ -127,7 +132,7 @@ function Contact() {
               />
             </div>
             <div className="form-group">
-              <label htmlFor="message">
+              <label htmlFor="message" style={{ color: '#2c2a6e' }}>
                 <FaPaperPlane className="icon" /> Message
               </label>
               <textarea
