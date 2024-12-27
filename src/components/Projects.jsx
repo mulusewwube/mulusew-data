@@ -7,7 +7,7 @@ function Projects() {
       title: "Optima",
       description: "Combines habit tracking and project management.",
       image: "/assets/images/data1.png",
-      link: "#",
+      link: "https://www.upwork.com/nx/find-work/best-matches",
     },
     {
       title: "Union",
