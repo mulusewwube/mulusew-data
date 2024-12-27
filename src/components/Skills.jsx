@@ -1,12 +1,10 @@
 import React from "react";
 import "../assets/Skills.css"; // Ensure the CSS file has the corresponding styles
-import { FaCode, FaPaintBrush } from "react-icons/fa";
+import { FaCode, FaPaintBrush, FaMicrosoft, FaRegLightbulb } from "react-icons/fa";
 import { AiOutlineHtml5, AiFillGithub } from "react-icons/ai";
 import { DiCss3, DiJavascript1, DiReact } from "react-icons/di";
-import { FiFigma } from "react-icons/fi";
-import { SiAdobeillustrator, SiAdobephotoshop, SiDjango, SiBootstrap, SiCanva } from "react-icons/si";
+import { SiDjango, SiBootstrap, SiCanva, SiPython } from "react-icons/si";
 import { RiFileWord2Fill, RiFileExcel2Fill, RiFilePpt2Fill } from "react-icons/ri";
-import { FaMicrosoft, FaRegLightbulb } from "react-icons/fa";
 
 function Skills() {
   const skillsData = [
@@ -23,14 +21,15 @@ function Skills() {
       ],
     },
     {
-      category: "Design Skills",
-      icon: <FaPaintBrush className="category-icon" />,
+      category: "Data Analysis Skills",
+      icon: <FaRegLightbulb className="category-icon" />,
       skills: [
-        { name: "Figma", level: 90, icon: <FiFigma className="skill-icon" /> },
-        { name: "Adobe Illustrator", level: 85, icon: <SiAdobeillustrator className="skill-icon" /> },
-        { name: "Adobe Photoshop", level: 80, icon: <SiAdobephotoshop className="skill-icon" /> },
-        { name: "UI/UX Design", level: 85, icon: <AiFillGithub className="skill-icon" /> },
-        { name: "Canva", level: 85, icon: <SiCanva className="skill-icon" /> },
+        { name: "Python", level: 85, icon: <SiPython className="skill-icon" /> },
+        { name: "Data Visualization", level: 80, icon: <AiFillGithub className="skill-icon" /> },
+        { name: "Pandas", level: 75, icon: <SiPython className="skill-icon" /> },
+        { name: "NumPy", level: 80, icon: <SiPython className="skill-icon" /> },
+        { name: "SQL", level: 70, icon: <SiPython className="skill-icon" /> },
+        { name: "Data Scraping", level: 85, icon: <RiFileExcel2Fill className="skill-icon" /> },
       ],
     },
     {
@@ -72,7 +71,7 @@ function Skills() {
           <FaRegLightbulb className="problem-solving-icon" />
         </div>
       </div>
-      <h2 className="skill-title" >My Skills</h2>
+      <h2 className="skill-title">My Skills</h2>
       <hr className="horizontal-line" />
       <div className="skills-container">
         {skillsData.map((category, index) => (
