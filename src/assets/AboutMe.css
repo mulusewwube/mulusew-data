@@ -47,7 +47,7 @@
   animation: slideInLeft 1s ease forwards;
   padding: 2rem;
   /* background: #2c2a6e; */
-  border-radius: 15px;
+/*   border-radius: 15px; */
   color: #ffffff;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
@@ -123,7 +123,7 @@
   animation: slideInRight 1s ease forwards;
   /* background:; */
   padding: 2rem;
-  border-radius: 15px;
+/*   border-radius: 15px; */
   color:  #2c2a6e;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
