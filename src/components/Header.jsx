@@ -17,10 +17,18 @@ const Header = () => {
             <a href="/">Mulusew</a>
           </h1>
         </div>
-        {/* Hamburger Menu Button */}
-        <button className="menu-toggle" onClick={toggleMenu}>
-          &#9776;
+
+        {/* Theme Toggle Button */}
+        <button className="theme-toggle" onClick={() => alert('Theme toggled!')}>
+          <span className="theme-icon">🌙</span>
         </button>
+
+        {/* Hamburger Menu Button */}
+        <button className={`menu-toggle ${isOpen ? "open" : ""}`} onClick={toggleMenu}>
+          <span className="menu-icon" />
+        </button>
+
+        {/* Navigation Menu */}
         <nav className={`navigation ${isOpen ? "open" : ""}`}>
           <ul>
             <li>
@@ -37,6 +45,13 @@ const Header = () => {
             </li>
           </ul>
         </nav>
+      </div>
+
+      {/* Magic Design Animation */}
+      <div className="magic-design">
+        <div className="circle one" />
+        <div className="circle two" />
+        <div className="circle three" />
       </div>
     </header>
   );
